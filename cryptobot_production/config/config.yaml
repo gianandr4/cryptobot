@@ -1,0 +1,17 @@
+grid:
+  min_spread: 0.0010  # 0.10%
+  max_spread: 0.0200  # 2.00%
+  base_levels: 10
+  max_levels: 25
+  position_adjustment: 0.8
+
+risk:
+  stop_loss_pct: 5.0
+  take_profit_pct: 15.0
+  max_drawdown_pct: 10.0
+  volatility_threshold: 0.05
+
+monitoring:
+  health_check_port: 8080
+  metrics_interval: 60
+  log_retention_days: 7
